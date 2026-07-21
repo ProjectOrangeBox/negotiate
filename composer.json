@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "peels\\negotiate\\": "src/"
+            "orange\\negotiate\\": "src/"
         }
     },
     "minimum-stability": "dev",

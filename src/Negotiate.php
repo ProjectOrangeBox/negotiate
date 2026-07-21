@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace peels\negotiate;
+namespace orange\negotiate;
 
-use peels\negotiate\NegotiateInterface;
+use orange\negotiate\NegotiateInterface;
 use orange\framework\exceptions\InvalidValue;
 use orange\framework\interfaces\InputInterface;
 

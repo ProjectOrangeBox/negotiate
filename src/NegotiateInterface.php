@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace peels\negotiate;
+namespace orange\negotiate;
 
 interface NegotiateInterface
 {

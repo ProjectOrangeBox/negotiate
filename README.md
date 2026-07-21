@@ -5,7 +5,7 @@ HTTP content negotiation: picks the best media type, charset, encoding, or langu
 ## Example
 
 ```php
-use peels\negotiate\Negotiate;
+use orange\negotiate\Negotiate;
 
 $negotiate = Negotiate::getInstance($input); // $input implements InputInterface
 

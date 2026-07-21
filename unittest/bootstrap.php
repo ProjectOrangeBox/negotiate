@@ -17,3 +17,16 @@ if (!function_exists('orangeErrorHandler')) {
     {
     }
 }
+
+if (!function_exists('logMsg')) {
+    function logMsg()
+    {
+    }
+}
+
+if (!function_exists('isLogEnabled')) {
+    function isLogEnabled(string|int $level): bool
+    {
+        return false;
+    }
+}

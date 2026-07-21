@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 use orange\framework\Input;
-use peels\negotiate\Negotiate;
+use orange\negotiate\Negotiate;
 
 final class NegotiateTest extends unitTestHelper
 {
