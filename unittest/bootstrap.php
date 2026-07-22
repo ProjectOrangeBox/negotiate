@@ -7,26 +7,15 @@ require __DIR__ . '/unitTestHelper.php';
 
 // making these will make it so the defaults won't be loaded
 if (!function_exists('orangeExceptionHandler')) {
-    function orangeExceptionHandler()
-    {
-    }
+    function orangeExceptionHandler() {}
 }
 
 if (!function_exists('orangeErrorHandler')) {
-    function orangeErrorHandler()
-    {
-    }
+    function orangeErrorHandler() {}
 }
 
-if (!function_exists('logMsg')) {
-    function logMsg()
-    {
-    }
-}
-
-if (!function_exists('isLogEnabled')) {
-    function isLogEnabled(string|int $level): bool
-    {
-        return false;
-    }
+function logMsg() {}
+function isLogEnabled()
+{
+    return false;
 }
