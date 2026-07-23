@@ -12,11 +12,8 @@ class Negotiate implements NegotiateInterface
 {
     private static ?NegotiateInterface $instance;
 
-    protected InputInterface $input;
-
-    protected function __construct(InputInterface $input)
+    protected function __construct(protected InputInterface $input)
     {
-        $this->input = $input;
     }
 
     public static function getInstance(InputInterface $input): self
@@ -316,6 +313,6 @@ class Negotiate implements NegotiateInterface
             ? mb_substr($supported['value'], 0, mb_strpos($supported['value'], '-'))
             : $supported['value'];
 
-        return strtolower($aBroad) === strtolower($sBroad);
+        return strtolower((string) $aBroad) === strtolower((string) $sBroad);
     }
 }
